@@ -8,4 +8,4 @@ DEPLOY CLOUDFORMATION USING AWS CODEPIPELINE \
             "Effect": "Allow", \
             "Action": "codestar-connections:UseConnection", \
             "Resource": "arn:aws:codestar-connections:us-east-1:086796595852:connection/c8b5b6ed-30b0-4d6a-80b7-c1591ec00435" \
-        }, \
+        }, 

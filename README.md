@@ -9,3 +9,6 @@ DEPLOY CLOUDFORMATION USING AWS CODEPIPELINE \
             "Action": "codestar-connections:UseConnection", \
             "Resource": "arn:aws:codestar-name" \
         }, 
+5- Create cloudformation role and give AmazonS3FullAccess \
+6- While creating codepipeline, in Deploy Stage select AWS Cloudformation, create new one and add newly created cloudformation role.
+7- Codepipeline will build and deploy when you push something to your repository

@@ -14,10 +14,10 @@ DEPLOY CLOUDFORMATION USING AWS CODEPIPELINE \
 7- Codepipeline will build and deploy when you push something to your repository \
 
 CREATE SNS WITH PARAMETER \
-1- Create sns_parameter_example.json and sns_parameter.json 
-2- Create new codepipeline
-3- Choose sns_parameter.json file for parameter
-4- Edit service role and add new github connection to allowed resource
+1- Create sns_parameter_example.json and sns_parameter.json \
+2- Create new codepipeline \
+3- Choose sns_parameter.json file for parameter \
+4- Edit service role and add new github connection to allowed resource \
 5- Edit cloudformation service role and add snsfullaccess
 
 

@@ -22,7 +22,7 @@ CREATE SNS WITH PARAMETER \
 
 RUN CLOUDFORMATION using AWS CLI \
 1- Upload s3cft.yml file to s3 bucket \
-2- Run command on Command Prompt \
+2- Run command on Command Prompt 
 >aws cloudformation create-stack --stack-name awscli-creates3bucket --template-url https://cli-bucket-anil.s3.amazonaws.com/s3cft.yml 
 
 ![image](https://user-images.githubusercontent.com/56221231/218874235-9f41f2aa-68a2-402c-acae-d762bfaeb26a.png)

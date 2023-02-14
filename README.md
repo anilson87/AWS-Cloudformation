@@ -18,6 +18,11 @@ CREATE SNS WITH PARAMETER \
 2- Create new codepipeline \
 3- Choose sns_parameter.json file for parameter \
 4- Edit service role and add new github connection to allowed resource \
-5- Edit cloudformation service role and add snsfullaccess
+5- Edit cloudformation service role and add snsfullaccess \
+
+RUN CLOUDFORMATION using AWS CLI \
+1- Upload s3cft.yml file to s3 bucket \
+2- Run command on Command Prompt \
+>aws cloudformation create-stack --stack-name awscli-creates3bucket --template-url https://cli-bucket-anil.s3.amazonaws.com/s3cft.yml
 
 

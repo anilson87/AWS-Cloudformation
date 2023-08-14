@@ -25,5 +25,6 @@ RUN CLOUDFORMATION using AWS CLI \
 2- Run command on Command Prompt 
 >aws cloudformation create-stack --stack-name awscli-creates3bucket --template-url https://cli-bucket-anil.s3.amazonaws.com/s3cft.yml 
 
-![image](https://user-images.githubusercontent.com/56221231/218874235-9f41f2aa-68a2-402c-acae-d762bfaeb26a.png)
+![image](https://user-images.githubusercontent.com/56221231/218874235-9f41f2aa-68a2-402c-acae-d762bfaeb26a.png) \
+...
 
